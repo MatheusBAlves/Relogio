@@ -17,7 +17,7 @@ setInterval( () => {
     let minutoLocal = data.getMinutes();
     let segundosLocal = data.getSeconds();
 
-    if(formato.checked){
+    if(!formato.checked){
         if(horaLocal <= 12){
             ampm.innerHTML = "AM";
         }else {
